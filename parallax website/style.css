@@ -1,0 +1,62 @@
+html,
+body
+{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato",sans-serif;
+    font-weight:400px;
+    line-height:1.8em;
+    color:grey;
+
+}
+.pimg1{
+    background-image:url(LBSNAA-logo.jpg);
+    min-height:50%;
+    
+    
+    
+}.pimg2{
+    background-image:url(Picsart_23-07-18_22-13-41-875.jpg);
+    min-height:400px;
+}
+.pimg3{
+        background-image:url(Picsart_23-07-18_22-14-58-763.jpg);
+        min-height: 400px;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position:relative;
+    background-attachment:fixed;
+    /*background-size:cover;
+    background-position:center;
+    background-repeat:repeat; */
+}
+   
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:black;
+    font-size:30px;
+    letter-spacing:2px;
+    text-transform: uppercase; 
+}
+.textBg{
+    background: black;
+    color:white;
+}
+.section{
+    padding:50px 80px;
+    text-align: center;
+
+}
+.section_light{
+    background-color:white;
+    color:rgb(29, 28, 28);
+}
+.section_dark{
+    background-color:rgb(152, 125, 125);
+    color:white;
+}
